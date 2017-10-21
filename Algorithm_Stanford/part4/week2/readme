@@ -1,0 +1,18 @@
+Travelling salesman problem(TSP) (https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+Needed additional princeton lib: In.java
+
+Two program
+1. TSP solver: TSP.java
+2. TSP viewer: TSPViewer.java, TSPComponent.java
+
+Usage: TSP.java
+step1 compile: javac-algs4 TSP.java
+step2 run: java-algs4 TSP tsp.txt
+
+Usage: TSP viewer
+step1 compile: javac-algs4 TSPViewer.java TSPComponent.java
+step2 run: java TSPViewer tsp.txt
+
+test file: tsp.txt
+#1 line: # of cities
+#2~last line: xCoord yCoord for each city

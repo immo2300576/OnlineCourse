@@ -1,0 +1,16 @@
+All-pairs shortest path(ASAP) problem
+Johnson’s algorithm (https://en.wikipedia.org/wiki/Johnson%27s_algorithm)
+needed addtional princeton lib: In.java
+
+java file: ASAP.java, Dijkstra.java, Edge.java, BinaryHeap.java
+ASAP.java: the top module including the reweighting part, Bellman Ford algorithm
+Dijkstra.java: Dijkstra's algorithm
+
+Usage:
+  step1 compile: javac-algs4 ASAP.java Dijkstra.java Edge.java BinaryHeap.java
+  step2 run: java-algs4 ASAP large.txt
+  
+  
+testfile (large.txt)
+#1 line: (# of vertices) (# of edges)
+#2~last line: (vertexID) (vertexID) (edge cost)

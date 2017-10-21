@@ -1,1 +1,6 @@
 Calculate multiplier of two number string (max length = 128)
+
+Needed additional lib for input parsing: princeton In.java
+usage: 
+  step1: compile:   javac-algs4 Int128Multiplier.java
+  step2: run:       java-algs4 Int128Multiplier String1 String2 (ex: String1 = 123244532443 String2 = 2432546572)

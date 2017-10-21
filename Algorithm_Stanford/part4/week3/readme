@@ -1,0 +1,12 @@
+Travelling salesman problem(TSP) problem (https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+
+needed additional princeton lib: In.java
+
+Usage:
+step 1 compile: javac-algs4 TSP_HEURISTIC.java
+step 2 run:     java-algs4 TSP_HEURISTIC testfile.txt
+testfile: nn5000.txt
+
+Test file format:
+#1 line: numbers of cities
+#2~last: cityID xCoord yCoord (Info for each city)

@@ -1,0 +1,13 @@
+SAT2 test
+
+algorithm: SAT2.java (https://en.wikipedia.org/wiki/2-satisfiability)
+sample test dir: sampleTest/.
+Need additional princeton lib: In.java
+
+usage:
+  step1 compile: javac-algs4 SAT2.java
+  step2 run:     java-algs4 SAT2.java testfile
+  
+test file format:
+#line1: numbers of boolean parameters (ex: 100 means there are 100 boolean parameters, x1, x2, x3, ..., x100)
+#2~last: indicates each clause representation:  (-29 43 means the clause if (not x29 or x43)) 

@@ -1,0 +1,6 @@
+Graph problem: Min cut
+Algorithm: Karger's Min Cut
+Needed: Princeton lib for parsing input
+
+MinCutSolver.java: test program
+KargerMinCut.java: algorithm class

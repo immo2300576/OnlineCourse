@@ -4,3 +4,12 @@ Needed: Princeton lib for parsing input
 
 MinCutSolver.java: test program
 KargerMinCut.java: algorithm class
+KargerMinCut.txt: sample test
+
+usage: 
+  step1: compile:   javac-algs4 MinCutSolver.java KargerMinCut.java
+  step2: run:       java-algs4 MinCutSolver KargerMinCut.txt
+ 
+intput format of sample test
+#1 line: # of vertices
+#2~last line: for each vertex (first number in the line) indicates its connection (remaining numbers)
